@@ -43,7 +43,15 @@ export default function Home() {
                 fontSize={{ lg: "6xl", base: "5xl" }}
                 fontWeight="extrabold"
               >
-                Make something cool by code.
+                Fakultas Seni Rupa dan Desain.
+              </Text>
+              <Text
+                bgGradient="linear(to-r, #1c7ed6 , #22b8cf)"
+                bgClip="text"
+                fontSize={{ lg: "3xl", base: "5xl" }}
+                fontWeight="bold"
+              >
+                Universitas Ruangguru CAMP.
               </Text>
               <Button
                 colorScheme="linkedin"
@@ -86,95 +94,20 @@ export default function Home() {
               fontSize={{ lg: "5xl", base: "3xl" }}
               fontWeight="extrabold"
             >
-              About me
+              Visi dan Misi
             </Text>
             <Box display={"flex"} gap="4" alignItems={"center"} marginTop="6">
-              <Image
-                borderRadius="full"
-                boxSize={{ base: "120px", lg: "150px" }}
-                src={"/assets/images/indra.jpeg"}
-                alt="Indra"
-              />
-              <div>
-                <Text
-                  color="gray.700"
-                  // bgClip="text"
-                  fontSize={{ lg: "2xl", base: "xl" }}
-                  fontWeight="bold"
-                >
-                  Indra Ahmad Firdaus
-                </Text>
-                <Text
-                  color="gray.500"
-                  // bgClip="text"
-                  fontSize={{ lg: "2xl", base: "md" }}
-                  // fontWeight="bold"
-                >
-                  Software Engineer
-                </Text>
-              </div>
+              <div></div>
             </Box>
-            <Text
-              marginTop="4"
-              color="gray.500"
-              // bgClip="text"
-              fontSize={{ lg: "2xl", base: "md" }}
-              // fontWeight="bold"
-            >
-              Casual and moderate tech-savvy who able to write code and also
-              loves to teach other how to do so.
-            </Text>
+
             <Box
               display={"flex"}
               gap="2"
               marginTop="4"
               flexDirection={{ base: "column", md: "row" }}
             >
-              <Box display={"flex"} gap="2" width={"100%"}>
-                <Button
-                  colorScheme="linkedin"
-                  // variant="outline"
-                  width={{ base: "70%", md: "50%", lg: "20%" }}
-                  marginTop="4"
-                >
-                  Projects
-                </Button>
-                <Button
-                  colorScheme="linkedin"
-                  variant="ghost"
-                  bg="linkedin.50"
-                  width={{ base: "70%", md: "50%", lg: "20%" }}
-                  marginTop="4"
-                >
-                  Resume
-                </Button>
-              </Box>
-              <Box display={"flex"} gap="2">
-                <Link
-                  href="https://www.linkedin.com/in/indra-ahmad-firdaus/"
-                  isExternal
-                >
-                  <Button
-                    colorScheme="linkedin"
-                    variant="ghost"
-                    marginTop="4"
-                    marginLeft={{ base: 0, md: "auto" }}
-                  >
-                    <FaLinkedinIn target="_blank" size={25} />
-                  </Button>
-                </Link>
-
-                <Link href="https://github.com/indraahmadfirdaus/" isExternal>
-                  <Button
-                    colorScheme="linkedin"
-                    variant="ghost"
-                    marginTop="4"
-                    // marginLeft={{ base: 0, md: "auto" }}
-                  >
-                    <FaGithub target="_blank" size={25} />
-                  </Button>
-                </Link>
-              </Box>
+              <Box display={"flex"} gap="2" width={"100%"}></Box>
+              <Box display={"flex"} gap="2"></Box>
             </Box>
           </Box>
         </SlideFade>
@@ -201,7 +134,7 @@ export default function Home() {
               fontSize={{ lg: "5xl", base: "3xl" }}
               fontWeight="extrabold"
             >
-              Latest Projects
+              Struktur Organisasi
             </Text>
             <MyCarousel />
           </Box>
